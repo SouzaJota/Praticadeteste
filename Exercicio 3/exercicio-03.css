@@ -1,0 +1,44 @@
+body{
+font-family: Arial;
+background:#d6d6d6;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.container{
+background:white;
+padding:30px;
+border-radius:10px;
+width:300px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h1{
+text-align:center;
+}
+
+input{
+width:100%;
+padding:8px;
+margin:10px 0;
+}
+
+button{
+width:100%;
+padding:10px;
+background:#28a745;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+button:hover{
+background:#1e7e34;
+}
+
+#resultado{
+margin-top:20px;
+font-weight:bold;
+}
